@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="..\css\style.css">
+</head>
+<body> 
+        <img class="logo-ham"src="../images/t11.png" style="width:60%">
+<span  class="try"style="cursor:pointer;" onclick="openNav()"><img  class="try" src="../images/sort-down.png"  ></span>
+<div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img  class="cbut"src="../images/cancel.png" ></a>
+        <a class="sside" href="index.html" >Home</a>
+        <a class="sside" href="about.html">About</a>
+        <a class="sside" href="contact.html">Contact</a>
+        <a class="sside" href="courses.html">Courses</a>
+        <a class="sside" href="login.html">Login</a>
+    </div>
+     
+
+<script>
+       
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "500%";
+    document.getElementById("mySidenav").style.height="500%";
+    document.querySelector("body").style.position="fixed";
+    document.getElementById("sidenav").classList.toggle="0px -5px 18px 7px #973534";
+
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.querySelector("body").style.position="relative";
+}
+</script>
+       <div class="Grid col-sm-12 col-md-12" style="width:100%" >
+              <div class="row">
+                  <div class="col-sm-4 col-md-4 image-logo"><img src="../images/t11.png" > </div>
+                  
+              <div class="col-sm-4 col-md-4 " id="nav">
+            <div class="row my-row">
+                    <div class="col-sm-3 col-md-3"><span class="p1"><a class="p1" href="index.html">Home</a></span></div>
+                    <div class="col-sm-3 col-md-3"><span class="p1"><a class="p1" href="about.html"  >About</a></span></div>
+                    <div class="col-sm-3 col-md-3"><span class="p1"><a class="p1" href="contact.html">Contact</a></span></div>
+                    <div class="col-sm-3 col-md-3"><span class="p1"><a class="p1"href="courses.html">Courses</a></span></div>
+                  </div>
+                </div>
+                <div class="col-sm-3 col-md-3 my-but">
+                  <button id="Btn"type="button" class="btn btn-danger" ><a href="login.html">Login</a></button>
+                  </div>
+                </div>
+              </div>
+                
+                  <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+          
+                        </ul>
+                      
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img  class="lap"src="..\images\lapi.jpg">
+                         
+                           
+                            <hr style="background-color:red;border:2px solid red;margin-top: -1rem;
+                            margin-bottom: 0rem;">
+                          </div>
+                          <div class="carousel-item">
+                              <img  class="lap"src="..\images\lapi.jpg" >
+                             
+                            <h1 style="margin-top:10px; padding-right:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adjective and Noun</h1>
+                            <p style="margin-top:10px; padding-right:100px; color:grey;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some text here for more information</p>
+                       
+                            <hr style="background-color:red;border:2px solid red;margin-top: -1rem;
+                            margin-bottom: 0rem;">
+                          </div>
+                          </div>
+                          <div class="carousel-item">
+                              <img  class="lap"src="..\images\lapi.jpg" >
+                    
+                            <h1 style="margin-top:10px; padding-right:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adjective and Noun</h1>
+                            <p style="margin-top:10px; padding-right:100px; color:grey;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some text here for more information</p>
+                          
+                            <hr style="background-color:red;border:2px solid red;margin-top: -1rem;
+                            margin-bottom: 0rem;">
+                          </div>
+                          </div>
+                        </div>
+                      
+                        <!-- Left and right controls -->
+                        <div class="controls">
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                      </div>
+                      <div class="my-course col-sm-12 col-md-12"  style="width:100%;">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 my-course" style=" font-weight:bold; font-size:50px; font-family:'Fjalla One', sans-serif; "><center>OUR COURSES</center></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12"></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-1 col-md-1"></div>
+                       <div class="col-sm-2 col-md-2 my-course-1" style="font-size:20px;">Graphics Designing</div>
+                       <div  class="col-sm-2 col-md-2 my-course-1" style="font-size:20px;">Web Designing</div>
+                       <div  class="col-sm-2 col-md-2 my-course-1"style="font-size:20px;">Web Development</div>
+                       <div  class="col-sm-2 col-md-2 my-course-1" style="font-size:20px;">Programming</div>
+                       <div  class="col-sm-2 col-md-2 my-course-1" style="font-size:20px;">Ms-Office</div>
+                       <div class="col-sm-2 col-md-2"></div>
+                        </div> 
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12"></div>
+                        </div>
+                         <div class="row">
+                         <div class="col-sm-1 col-md-1"></div>
+                         <div class="col-sm-2 col-md-2"><img width="35%"src="..\images\photoshop.png"></div>
+                         <div class="col-sm-2 col-md-2"><img width="35%"src="..\images\webd.png"></div>
+                         <div  class="col-sm-2 col-md-2"><img width="35%"src="..\images\php.png"></div>
+                         <div  class="col-sm-2 col-md-2"><img width="35%"src="..\images\cs.png"></div>
+                         <div  class="col-sm-2 col-md-2"><img width="35%"src="..\images\office.png"></div>
+                         <div class="col-sm-2 col-md-2"></div>
+                          </div>
+                          <div class="row">
+                              <div class="col-sm-12 col-md-12"></div>
+                          </div>
+                          <div class="row">
+                              <div class="col-sm-1 col-md-1 my-team1"></div>
+                              <div class="col-sm-2 col-md-2  my-team1">Graphic design is the process of visual communication and problem-solving through the use of typography, photography and illustration.</div>
+                              <div class="col-sm-2 col-md-2 my-team1">Web design is a process of creation, with the intention of presenting the content on electronic web pages, which the end-users can access through the internet with the help of a web browser.</div>
+                              <div  class="col-sm-2 col-md-2  my-team1">Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network).</div>
+                              <div  class="col-sm-2 col-md-2  my-team1">Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer "languages".</div>
+                              <div  class="col-sm-2 col-md-2  my-team1">Microsoft Office is a suite of desktop productivity applications that is designed specifically to be used for office or business use.It mainly consists of Word, Excel, PowerPoint, Access.</div>
+                              <div class="col-sm-1 col-md-1"></div>
+                               </div>                                                    
+                       </div>
+               <!--    <div id="fjb"class="jumbotron"> 
+                              <h2>Knowledge Valley&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tech Valley&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tutors Valley</h2>
+                         
+                        </div> -->
+                        <!--  <div id="sjb" class="container">
+                        <center><h1><span class="course-head">Our Courses</span></h1></center>
+                          <table>
+                              <div class="courses">
+                                <tr>
+                           <th>Graphics Designing</th>
+                           <th>Web Designing</th>
+                           <th>Web Development</th>
+                           <th>Programming</th>
+                           <th>Ms-Office</th>
+                                </tr>
+                            </div>
+                                <tr>
+                                        <td><img width="28%"src="C:\Users\Sogat\Desktop\prev_website\\images\ps.png"></td>
+                                        <td><img width="40%"src="C:\Users\Sogat\Desktop\prev_website\\images\webd.png"></td>
+                                        <td><img width="50%"src="C:\Users\Sogat\Desktop\prev_website\\images\php.png"></td>
+                                        <td><img width="35%"src="C:\Users\Sogat\Desktop\prev_website\\images\cs.png"></td>
+                                        <td><img width="80%"src="C:\Users\Sogat\Desktop\prev_website\\images\off.png"></td>
+                                      
+                                    </tr>
+                                    <tr>
+                                          <td class="des">Graphic design is the process of visual communication and problem-solving through the use of typography, photography and illustration</td>
+                                          <td class="des">A web designer develops and creates websites and associated applications. Web designers work in a variety of industries and often as independent contractors.</td>
+                                          <td class="des">Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network).</td>
+                                          <td class="des">Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer "languages".</td>
+                                          <td class="des">Microsoft Office is a family of client software, server software, and services developed by Microsoft</td>
+                                          
+                                        </tr>
+                            </table>
+                              </div>
+                            -->
+
+
+                            <div class="col-sm-12 col-md-12 Footer "  style="width:100%;">
+                            <div class="row">
+                              <div class="col-sm-2 col-md-2"></div>
+                              <div class="col-sm-2 col-md-2">
+                                <img src="../images/it.png" style="width:50%; margin-top:24px;">
+                              </div>
+                              <div class="col-sm-2  col-md-2" style="color:white; font-size:30px; margin-top:24px;font-family:'Fjalla One', sans-serif;font-weight:bold; ">
+                           Explore</div>
+                              <div class="col-sm-2  col-md-2" style="color:white;font-size:30px; margin-top:24px;font-family:'Fjalla One', sans-serif;font-weight:bold;   ">
+                                Business
+                              </div>
+                              <div class="col-sm-2  col-md-2" style="color:white;font-size:30px; margin-top:24px;font-family:'Fjalla One', sans-serif;font-weight:bold;">
+                                Follow
+                                </div>
+                                <div class="col-sm-2  col-md-2"></div>
+                                </div>
+                                <div class="row" >
+                                    <div class="col-sm-2 col-md-2">
+      
+                                    </div>
+                                    <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px;    font-family: sans-serif; ">
+                                      Where the skils are Crafted!
+                                    </div>
+                                    <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-32px;    font-family: sans-serif; ">
+                                      Home
+                                    </div>
+                                    <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px;margin-top:-32px;    font-family: sans-serif;  ">
+                                    Facebook/TheTechValley.pk/
+                                    </div>
+                                    <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px ;text-decoration:none;margin-top:-32px;     font-family: sans-serif;">
+                                     Facebook
+                                      </div>
+                                      <div class="col-sm-2 col-md-2">
+                                      
+                                      </div>
+                                    </div>
+                                    <div class="row" >
+                                    <div class="col-sm-2 col-md-2">
+      
+                                    </div>
+                                    <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-36px;  ">
+                                
+                                    </div>
+                                    <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-36px;     font-family: sans-serif; ">
+                                     About
+                                    </div>
+                                    <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px; margin-top:-36px;    font-family: sans-serif;  ">
+                                    03132664709
+                                    </div>
+                                    <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px ;text-decoration:none;    font-family: sans-serif; margin-top:-36px; ">
+                                      Twitter
+                                      </div>
+                                      <div class="col-sm-2 col-md-2">
+                                    
+                                      </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="col-sm-2 col-md-2">
+          
+                                        </div>
+                                        <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-36px;  ">
+                                    
+                                        </div>
+                                        <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px;    font-family: sans-serif; margin-top:-21px;  ">
+                                       Contact
+                                        </div>
+                                        <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px;    font-family: sans-serif; margin-top:-36px;  ">
+                                        03132664709
+                                        </div>
+                                        <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px ;    font-family: sans-serif;text-decoration:none;margin-top:-21px; ">
+                                          Whatsapp
+                                          </div>
+                                          <div class="col-sm-2 col-md-2">
+                                        
+                                          </div>
+                                        </div>
+                                        <div class="row" >
+                                            <div class="col-sm-2  col-md-2">
+              
+                                            </div>
+                                            <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; ">
+                                        
+                                            </div>
+                                            <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-5px;    font-family: sans-serif;  ">
+                                           Courses
+                                            </div>
+                                            <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px;margin-top:-36px;  ">
+  
+                                            </div>
+                                            <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px ;text-decoration:none;margin-top:-36px; ">
+                                              </div>
+                                              <div class="col-sm-2 col-md-2">
+                                            
+                                              </div>
+                                            </div>
+                                </div>
+                           
+                                <div class="col-sm-12 col-md-12 E-Footer" style="width:100;">
+                                  <div class="row">
+                                    <div class="col-sm-2 col-md-2"></div>
+                                    <div class="col-sm-2 col-md-2">
+                                      <img src="../images/it.png" style="width:85%; margin-top:1px;">
+                                    </div>
+                                    <div class="col-sm-2  col-md-2 e1" >
+                                 Explore</div>
+                                    <div class="col-sm-2  col-md-2 e2" >
+                                      Business
+                                    </div>
+                                    <div class="col-sm-2  col-md-2 e3">
+                                      Follow
+                                      </div>
+                                      <div class="col-sm-2  col-md-2 "></div>
+                                      </div>
+                                      <div class="row" >
+                                          <div class="col-sm-2 col-md-2">
+                            
+                                          </div>
+                                          <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px;    font-family: sans-serif; ">
+                                            Where the skils are Crafted!
+                                          </div>
+                                          <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-16px;    font-family: sans-serif; ">
+                                            Home
+                                          </div>
+                                          <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px;margin-top:-21px;margin-left:50px;    font-family: sans-serif;  ">
+                                          Facebook/TheTechValley.pk/
+                                          </div>
+                                          <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px ;text-decoration:none;margin-top:-20px; margin-left:50px;    font-family: sans-serif;">
+                                           Facebook
+                                            </div>
+                                            <div class="col-sm-2 col-md-2">
+                                            
+                                            </div>
+                                          </div>
+                                          <div class="row" >
+                                          <div class="col-sm-2 col-md-2">
+                            
+                                          </div>
+                                          <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-36px;  ">
+                                      
+                                          </div>
+                                          <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-36px;     font-family: sans-serif; ">
+                                           About
+                                          </div>
+                                          <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px; margin-top:-36px;margin-left:54px;    font-family: sans-serif;  ">
+                                          03132664709
+                                          </div>
+                                          <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px ;text-decoration:none;    font-family: sans-serif; margin-top:-36px; margin-left:50px; ">
+                                            Twitter
+                                            </div>
+                                            <div class="col-sm-2 col-md-2">
+                                          
+                                            </div>
+                                          </div>
+                                          <div class="row" >
+                                              <div class="col-sm-2 col-md-2">
+                            
+                                              </div>
+                                              <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-36px;  ">
+                                          
+                                              </div>
+                                              <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px;    font-family: sans-serif; margin-top:-21px;  ">
+                                             Contact
+                                              </div>
+                                              <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px;    font-family: sans-serif; margin-top:-36px;  ">
+                                        
+                                              </div>
+                                              <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px ;    font-family: sans-serif;text-decoration:none;margin-top:-18px; margin-left:101px; ">
+                                                Whatsapp
+                                                </div>
+                                                <div class="col-sm-2 col-md-2">
+                                              
+                                                </div>
+                                              </div>
+                                              <div class="row" >
+                                                  <div class="col-sm-2  col-md-2">
+                            
+                                                  </div>
+                                                  <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; ">
+                                              
+                                                  </div>
+                                                  <div class="col-sm-2 col-md-2" style="color:silver; font-size:13px; margin-top:-5px;    font-family: sans-serif;  ">
+                                                 Courses
+                                                  </div>
+                                                  <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px;margin-top:-36px;  ">
+                            
+                                                  </div>
+                                                  <div class="col-sm-2 col-md-2" style="color:silver;font-size:13px ;text-decoration:none;margin-top:-36px; ">
+                                                    </div>
+                                                    <div class="col-sm-2 col-md-2">
+                                                  
+                                                    </div>
+                                                  </div>
+                                
+                                
+                              
+                              
+                           
+                    
+                
+
+    <script src="../javaScript/index.js"></script>
+</body>
+</html>
